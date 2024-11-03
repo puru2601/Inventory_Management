@@ -1,0 +1,344 @@
+.dashboard_wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.dashboard_left {
+    width: 20%;
+    background-color: #282c34;
+}
+
+.main_container {
+    width: 80%;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.profile_info {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile_info img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.profile_info p {
+    color: white;
+    font-size: 25px;
+}
+
+.profile_info button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.menu_link {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu_link:hover {
+    background-color: #5887d9;
+}
+
+.new_entrie_heading {
+    font-size: 20px;
+    color: rgb(82, 82, 80);
+}
+
+.first_row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.first_row input {
+    padding: 7px;
+    border-radius: 10px;
+    width: 33%;
+    border: 1px solid #878282;
+}
+
+.add_btn {
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    background-color: #282c34;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.product_wrapper {
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    margin-top: 10px;
+    min-height: 300px;
+}
+
+.product_list {
+    display: flex;
+}
+
+.product_list p {
+    /* background-color: red; */
+    text-align: left;
+    width: 20%;
+}
+
+.total_wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid rgb(199, 196, 218);
+    padding: 10px;
+}
+
+.total_wrapper p {
+    /* background-color: red; */
+    width: 20%;
+    color: #5887d9;
+    font-weight: bold;
+    font-style: 20px;
+}
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.box p {
+    width: 20%;
+    text-transform: capitalize;
+}
+
+.delete_btn {
+    padding: 5px;
+    background-color: #878282;
+    color: white;
+    /* border: none; */
+    border-radius: 5px;
+}
+
+.view_btn {
+    background-color: #2316d2;
+    /* color: white; */
+}
+
+/* .invoice_main_wrapper{
+    background-color: #8c7171;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+} */
+.invoice_wrapper {
+    width: 60%;
+    background-color: rgb(102, 90, 90);
+    min-height: 90vh;
+    margin: auto;
+    padding: 20px;
+}
+
+.invoice_header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.company_logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #333;
+    margin-bottom: 10px;
+}
+
+.cName {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* color: #333; */
+}
+
+.customer_detail h1 {
+    color: #2316d2;
+    margin-bottom: 10px;
+}
+
+.product_table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: royalblue;
+    color: white;
+}
+tfoot{
+    background-color: royalblue;
+    color: white;
+}
+.print_btn{
+    border: none;
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+}
+.invoice_top_header{
+    display: flex;
+    justify-content: flex-end;
+}
+.setting_wrapper{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.update_cName{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.update_cName input{
+    width: 80%;
+    padding: 10px;
+}
+.update_cName button{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(87, 87, 186);
+    color: white;
+}
+.home_first_row{
+    display: flex;
+    justify-content: space-between;
+}
+.home_box{
+    width: 32%;
+    height: 27vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box_1{
+    background: linear-gradient(to right, #282c34, rgb(72, 74, 226));
+}
+.box_2{
+    background: linear-gradient(to right, #282c34, rgb(255, 7, 210));
+}
+.box_3{
+    background: linear-gradient(to right, #282c34, rgb(154, 142, 152));
+}
+.home_second_row{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.chart_box{
+    width: 60%;
+    height:60vh;
+    background-color: rgb(218, 226, 240);
+    
+    border-radius: 10px;
+
+}
+.recent_invoice_list{
+    width: 35%;
+    height:60vh;
+    background-color: rgb(218, 226, 240);
+    border-radius: 10px;
+
+}
+
+.recent_invoice_list h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(87, 87, 186);
+    color: white;
+}
+
+.box_header{
+    color: white;
+}
+.box_title{
+    color: yellow;
+}
+
+.recent_invoice_list div{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.recent_invoice_list div:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.recent_invoice_list p{
+    width: 70%;
+    padding: 10px;
+}
+    
+.empty_invoice_wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    gap: 10px;
+}
+.empty_invoice_wrapper p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #eee;
+}
+.empty_invoice_wrapper button{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(87, 87, 186);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
